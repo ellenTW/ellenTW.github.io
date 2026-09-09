@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to optimise CMS ecosystem for streamlining campaigns, enabling customization and data collection? — Ellen Timothy Wong</title>
+<meta name="description" content="How to optimise CMS ecosystem for streamlining campaigns, enabling customization and data collection?">
+<link rel="icon" href="assets/images/home/b53f86_a0198b83ae0848219d68e0c6fcc2b02c.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/images/home/b53f86_a0198b83ae0848219d68e0c6fcc2b02c.png" alt=""> Ellen Timothy Wong</a>
+    <nav class="main-nav"><ul>
+      <li><a href="index.html">Home</a></li>
+<li><a href="previous-projects.html" class="active">Previous Projects</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="about.html">About me</a></li>
+
+    </ul></nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-header">
+    <div class="wrap">
+      <div class="client">AXA HK, 2022-23</div>
+      <h1>How to optimise CMS ecosystem for streamlining campaigns, enabling customization and data collection?</h1>
+      <p class="tasks">My Tasks: Product Design, User Research, UXUI design</p>
+    </div>
+  </div>
+  <div class="center-wrap">
+    <div class="hero-image"><img src="assets/images/how-to-design-a-new-cms/b53f86_a69d849670574b8f9da13f92a54c5eb0.jpg" alt="How to optimise CMS ecosystem for streamlining campaigns, enabling customization and data collection?"></div>
+  </div>
+  <div class="prose">
+
+<h2>Project Background</h2>
+<p>As Emma expanded to onboard General Insurance users, we launched more promotional campaigns and introduced free hook products. However, the CMS (Content Management System) we were using at the time was shared with the Corporate website team, which had significant limitations:</p>
+<ul>
+<li>Making it difficult to personalize promotions for different customer groups.</li>
+<li>Relying on the workforce of the website team to launch the campaign.</li>
+<li>Low flexibility on the enhancement of the campaign&rsquo;s templates.</li>
+</ul>
+<p>We decided to build a brand new CMS for Emma by AXA app.</p>
+
+<h2>My Role</h2>
+<ul>
+<li>Conducted user interviews to understand the business users&rsquo; expectations of the CMS, and studied clients&rsquo; unhappy experiences with our campaigns on the app.</li>
+<li>Designed the usage of the CMS.</li>
+<li>Designed the workflow of personalising the target group.</li>
+</ul>
+<h3>Collaboration teams</h3>
+<ul>
+<li><strong>Vicky Man</strong> (Business Analyst) — prepared business requirements &amp; user stories</li>
+<li><strong>Vincent Leung, Nelson Wong and team</strong> (Technical team) — conducted the proof of concept, studied the technical workflow of user group segmentation and Salesforce integration, developed the CMS and frontend templates</li>
+<li><strong>Kara Wong and team</strong> (Data analytical team) — prepared a tracking plan for developing the campaign&rsquo;s success metrics</li>
+</ul>
+
+<h2>Research</h2>
+<p><strong>Topic:</strong> explore ways of enhancing our CMS functionalities for greater flexibility in launching timely market campaigns while reducing reliance on development teams for each campaign push.</p>
+<h3>Methodology</h3>
+<ol>
+<li>Interview our stakeholders — to learn their difficulties with the old CMS, and understand their ideal way of selecting the target audience and current limitations.</li>
+<li>Interview the technical team to understand the existing process of grouping the target audience. In the Emma by AXA app, different types of policyholders can use the relevant policy features of their policy category. Since policyholders can purchase a new policy or withdraw their existing policy at any time, the feature list on the app's homepage should be updated whenever users log in.</li>
+</ol>
+<h3>Key stakeholders</h3>
+<ul>
+<li>Senior Distribution Digital Support Manager</li>
+<li>Digital Customer Engagement Manager</li>
+<li>Data analytics &amp; insights manager</li>
+<li>Business Analyst in charge of setting up the campaign</li>
+</ul>
+
+<h2>What We Found</h2>
+<h3>High workload on setting up a single campaign</h3>
+<ul>
+<li>A single template could not support bilingual language, so the business analyst needed to create double files for bilingual versions.</li>
+<li>If the business team selected multiple locations inside the app to promote a campaign (e.g. 4 locations), she should create 8 files to maintain one campaign — causing a high risk of file miss-update issues during approval.</li>
+<li>There was no complete testing environment for the business team to review campaign layout/content during approval. After sign-off, the business analyst needed to recreate the campaign in a live environment again — doubling the effort.</li>
+</ul>
+<h3>High dependence on the development team</h3>
+<ul>
+<li>Controlling the visibility of ads on different pages of the app</li>
+<li>Setting the target audience</li>
+<li>Campaign launching time needs to stick with production release</li>
+</ul>
+<h3>The existing process of grouping the target audience</h3>
+<p>The campaign manager needed to ask the data science team to select target audiences by providing certain criteria, then pass the list of eligible policyholders to the development team, who enabled the campaign through a production release. This increased the difficulty of pushing timely campaigns to react to market trends.</p>
+<h3>Existing weakness of Salesforce</h3>
+<p>As real-time quota checking had not been reflected on the CMS, the BA needed to monitor the campaign quota in Salesforce at midnight if the event was popular. Prismic (the CMS front-end framework) couldn&rsquo;t proactively check the Salesforce data, so it couldn&rsquo;t check the campaign status when a user clicked on the campaign page.</p>
+
+<h2>Stakeholders&rsquo; Expectations of the New CMS</h2>
+<ul>
+<li>Low dependency on the technical side</li>
+<li>Allows the launch of ads at any time</li>
+<li>High control over frequency of ad appearances, their locations, and the audience that can view them</li>
+<li>Allows users to modify content easily at any point</li>
+<li>Provides a safe content-reviewing and testing environment</li>
+<li>Allows quick withdrawal of ads in case of any emergency</li>
+</ul>
+<h3>Types of templates / advertisement locations</h3>
+<ul>
+<li>Pop-up</li>
+<li>Pre-login page</li>
+<li>Ads on Homepage</li>
+<li>Ads in &ldquo;My Privileges&rdquo;</li>
+<li>Campaign details page</li>
+<li>Event forms</li>
+<li>Confirmation page</li>
+<li>Error page</li>
+<li>Terms and conditions page</li>
+<li>Quiz game journey</li>
+</ul>
+
+<h2>Solutions</h2>
+<p>To address this, I collaborated with the BA, IT, and Data teams to design a new CMS system from scratch.</p>
+<h3>Goals</h3>
+<p>The new system should support: customer segmentation, customizable ad placements, pre-integration with Salesforce, and high flexibility in campaign page design, supporting: free insurance product subscription, event subscription, quiz game journey, and service subscription. This reduced reliance on developers and made marketing campaigns more efficient and personalized.</p>
+<h3>Target Deliverables</h3>
+<ul>
+<li>CMS dashboard design</li>
+<li>POC of new workflow for customer segmentation</li>
+<li>Solution for real-time quota</li>
+<li>Template designs for every advertisement location listed above</li>
+</ul>
+
+<h2>Ideal Workflow on Customer Segmentation</h2>
+<p><strong>Set the target group through CMS.</strong> I wanted to allow users to define audience criteria in the CMS — campaign_id, group_id, age range, location, and line of business — converted into a JSON file and sent to the &ldquo;Policy Lake&rdquo; (fake name) to filter eligible policyholders. I suggested developing an API as a connector to read the JSON in the policy lake, believing this could be reusable for future automation processes.</p>
+<p>The idea was doable but put on the wish list, because the API and technical teams gave reasonable reasons: the calculation cost associated with age combined with line of business is high, since the number of eligible audiences changes daily based on age — a dynamic criterion that significantly impacts subsequent analysis work. Switching from age ranges to birth year ranges could help, but if multiple campaigns run simultaneously, the eligibility checking process during login could become burdensome. <strong>Conclusion:</strong> this idea should be rethought together with login eligibility checking.</p>
+
+<h3>Journey of Real-time Quota</h3>
+<p>Digital enhancement: we added a webhook at the CMS to listen for the outbound message from Salesforce, and added a status validation when the app homepage loads. When the webhook received the outbound message asking to change the campaign status from &ldquo;ON&rdquo; to &ldquo;OFF&rdquo;, the status was reflected on the front-end layout.</p>
+
+<h3>Design Template</h3>
+<p>To prevent any misunderstanding by the development team regarding my design and content modelling structure, I provided not only the template layout but also detailed the content modelling structures, reusable slices, and configuration of those slices. This way, both the Business Analyst and I could understand how to use the CMS before development was completed, while the development team stood on the same page with us.</p>
+
+<h2>Reflection: Balancing Usability and Cost in CMS Design</h2>
+<p>During the process of designing the CMS, I had discussions with various departments. Through these conversations, I realized there were several areas where I needed to rethink how to create a cost-effective CMS.</p>
+<h3>Design Conflicts between BA and Developers</h3>
+<p>In the past, when designers worked on similar projects, clients often focused only on the layout design and overlooked the usability of the CMS. However, during this project, I noticed two key concerns repeatedly brought up by developers and business analysts (BAs):</p>
+<blockquote>Business Analysts (BA): &ldquo;The previous CMS was so hard to use that it took ages just to create a post.&rdquo;<br>Developers: &ldquo;My biggest worry is building a completed function feature that ends up not being used.&rdquo;</blockquote>
+<p>It became clear to me that when developers design features, they also consider the cost of development. Designing a well-rounded feature can be much more resource-intensive than we might imagine, so they naturally weigh whether it's worth the effort to fully implement a feature.</p>
+<h3>My Approach: Finding Common Ground</h3>
+<p>To address these challenges, the first step was to understand the future promotion plan from the customer engagement team. According to their plan, we prioritised designing the event page and refining the customer segmentation process — critical areas that directly impact the time and cost of launching a campaign. We also gave developers a clear understanding of the business needs, ensuring the features developed were both practical for end users and justified in terms of development cost.</p>
+<h3>My Learning</h3>
+<p>Looking back, this project taught me the importance of finding common ground between business goals and technical feasibility. By fostering collaboration and focusing on key pain points, I was able to guide the team toward a solution that balanced usability and cost-effectiveness. This experience has deepened my understanding of how thoughtful design and communication can drive successful outcomes.</p>
+
+  </div>
+  <div class="gallery">
+      <img src="assets/images/how-to-design-a-new-cms/b53f86_1184d040198044b4aa54823f50093a34.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/how-to-design-a-new-cms/b53f86_2ed96af6793a49fb8f1c5f766eb235f5.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/how-to-design-a-new-cms/b53f86_30f0a2dd77044994959a3a673e35047d.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/how-to-design-a-new-cms/b53f86_563a176c8c5b4beeae06b53163b7ca1d.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/how-to-design-a-new-cms/b53f86_6ec8dbe1d8414fd691a9da2aa4f7a953.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/how-to-design-a-new-cms/b53f86_7289a4400c5f4845a2fa76a99ba4ecca.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/how-to-design-a-new-cms/b53f86_877f183af0974163a246cf70d8914029.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/how-to-design-a-new-cms/b53f86_90008ed211cf4c929fe743ac0effa27b.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/how-to-design-a-new-cms/b53f86_a4eee3a9d5274a3d88dea47e4486d929.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/how-to-design-a-new-cms/b53f86_a5a0c0c811e6434aa4fb2060a3ded20c.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/how-to-design-a-new-cms/b53f86_c7d36786f81d4ff78811bfcdb8ec1190.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/how-to-design-a-new-cms/b53f86_d556c02da138408bbe1581e0b9f4e4be.png" alt="Project visual" loading="lazy">
+  </div>
+  <div class="center-wrap" style="text-align:center;padding-bottom:40px">
+    <a class="back-link" href="previous-projects.html">&larr; Back to Previous Projects</a>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <nav><ul><li><a href="index.html">Home</a></li>
+<li><a href="previous-projects.html">Previous Projects</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="about.html">About me</a></li>
+</ul></nav>
+    <p class="copy">&copy; 2025 by Ellen Timothy Wong</p>
+  </div>
+</footer>
+</body>
+</html>

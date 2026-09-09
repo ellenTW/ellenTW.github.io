@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scalable Insurance App: From One Smooth UX Flow to Many, Designed Without Enough Domain Expertise — Ellen Timothy Wong</title>
+<meta name="description" content="Scalable Insurance App: From One Smooth UX Flow to Many, Designed Without Enough Domain Expertise">
+<link rel="icon" href="assets/images/home/b53f86_a0198b83ae0848219d68e0c6fcc2b02c.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/images/home/b53f86_a0198b83ae0848219d68e0c6fcc2b02c.png" alt=""> Ellen Timothy Wong</a>
+    <nav class="main-nav"><ul>
+      <li><a href="index.html">Home</a></li>
+<li><a href="previous-projects.html" class="active">Previous Projects</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="about.html">About me</a></li>
+
+    </ul></nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-header">
+    <div class="wrap">
+      <div class="client">AXA HK, 2018 – 23</div>
+      <h1>Scalable Insurance App: From One Smooth UX Flow to Many, Designed Without Enough Domain Expertise</h1>
+      <p class="tasks">My Tasks: User Research, Product Design, Design Strategy, Usability Testing</p>
+    </div>
+  </div>
+  <div class="center-wrap">
+    <div class="hero-image"><img src="assets/images/home/b53f86_a94df32b09df48bf9ac25572c92cbed8.jpg" alt="Scalable Insurance App: From One Smooth UX Flow to Many, Designed Without Enough Domain Expertise"></div>
+  </div>
+  <div class="prose">
+
+<h2>Project Background</h2>
+<p>In today&rsquo;s world, insurance apps are often viewed as self-service platforms that help customers who don&rsquo;t have an insurance agent to easily file claims and manage policies. Emma by AXA has redefined its value proposition and positioned itself as a holistic one-stop insurance and health-being managing platform.</p>
+
+<h2>My Role</h2>
+<p>UX/UI Manager and customer engagement design lead — led the Product Design of Emma by AXA app at AXA Hong Kong.</p>
+
+<h2>Objective</h2>
+<p>We aim to design scalable applications for diverse insurance products. The app is the flagship platform, and Hong Kong is the first pilot. Our users are from Hong Kong, Macau, China and Taiwan, covering a wide range of insurance services: employee benefits, life and health insurance, savings and investments, and general insurance.</p>
+
+<h2>Challenge</h2>
+<h3>Diverse Insurance Lines and Complex User Needs</h3>
+<p>The app needed to support three insurance categories, each with distinct workflows:</p>
+<ul>
+<li><strong>Group Medical:</strong> Employee benefits insurance.</li>
+<li><strong>Life Insurance:</strong> Pure life, life &amp; health, and savings &amp; investment policies.</li>
+<li><strong>General Insurance:</strong> Travel, motor, domestic helper, home, and personal accident insurance.</li>
+</ul>
+<p>For example, claim journeys for Employee Benefits differed significantly from General Insurance claims.</p>
+
+<h3>Integration of Legacy Data</h3>
+<ul>
+<li>AXA had acquired several companies over the years, resulting in various policy number formats.</li>
+<li>Inconsistent type of primary key to identify the user — e.g. the database from department A and B used policy no. as the primary key while department C used MemberID.</li>
+<li>Need to migrate users from the previous app &ldquo;MyAXA&rdquo; to the new app.</li>
+</ul>
+
+<h3>Technical Limitations</h3>
+<p><strong>Frontend:</strong> developers came from multiple vendor companies; no design system for the technical side to keep component structure standard, leading to high maintainability costs in the app's early stages.</p>
+<p><strong>Backend:</strong> multiple data systems store user information; needed time to adjust the API for faster loading.</p>
+
+<h3>Design Constraints: Limited Time and Resources Affecting the Understanding of Differences Across Business Lines</h3>
+<p>The strategy of product scaling up:</p>
+<ul>
+<li>1st half of Year 1: Employee Benefits.</li>
+<li>2nd half of Year 1: Expand to Life &amp; Savings Insurance.</li>
+<li>Year 2: Enable market place, value added services and contact information change.</li>
+<li>Year 3: Onboard General Insurance users, and value added services.</li>
+<li>Year 4: CMS revamp.</li>
+</ul>
+<p>As a result, business analysts could only study one line of business at a time, making design decisions more challenging.</p>
+
+<h2>Product Design Strategy</h2>
+<h3>Enabling Convenient Digital Insurance Features to Elevate Perceived Value</h3>
+<p>Enabled full digital insurance service features for Employee Benefits and Life &amp; Investment users in the first two years:</p>
+<ul>
+<li>Find Doctors &amp; Claim Services</li>
+<li>Policy Managing Services: change contact information, review policy</li>
+<li>In-app notifications for claims and events</li>
+<li>Automated claims processing for Employee Benefits, allowing direct settlements with qualified documents, retaining many users</li>
+<li>Premium Rebate Program: &ldquo;AXA Goal&rdquo;, rewarding policyholders who completed 10,000 daily steps on a certain number of days</li>
+</ul>
+
+<h3>Lean and Scalable UI Design</h3>
+<p>In the first 2 years, for processes requiring user authentication, I advocated for minimalist designs to reduce the workload for frontend developers. This allowed developers to focus on building a unified API for user identification, enabling future integration across multiple databases (e.g., group insurance, individual insurance, and general insurance).</p>
+<p><strong>High effort on creating the account journey</strong> — streamlined signup flows and reduced steps to minimize barriers for users:</p>
+<ul>
+<li>Split the create account journey into 2 steps: create an account &amp; find a policy. Users are not compulsory to connect the insurance policy during account creation while connecting the policy when they want to use the insurance services.</li>
+<li>Proactively remind users to activate the account via Email/SMS.</li>
+<li>Enable biometric authentication for users to log back into their accounts.</li>
+</ul>
+
+<h3>Unifying Interfaces and Features</h3>
+<p>E.g. standardize the UI of claim processes across EB and individual insurance as much as possible — increasing the reusability of components and reducing development complexity.</p>
+
+<h3>Implementing Atomic Design &amp; Pushing for a Design System</h3>
+<p>I adopted the Atomic Design methodology, starting with small components like buttons and input fields, which were then assembled into reusable page modules. This improved efficiency in both design and development. I worked closely with IT teams to establish a Design System and Storybook, ensuring consistency across interfaces while enhancing development efficiency.</p>
+
+<h3>Second Generation of Emma by AXA</h3>
+<p>In 2022, I began redesigning the second-generation Emma by AXA homepage. Using years of GA data, I re-analyzed the homepage structure and incorporated features like reminders, insurance tools, cross-selling channels, and educational content for the public.</p>
+<p>We also noticed that users rarely utilized certain health services. During user interviews, we found that some services didn&rsquo;t align with customer needs, others were underused because their names failed to clearly convey their purpose. Although some service names couldn&rsquo;t be changed due to agreements with partners, I redesigned the My Services page based on usage scenarios and functionality. The current design in the app today still keeps my original style and design ideas.</p>
+
+<h3>Developed Digital Services Features</h3>
+<p>Three insurance key lines: Group Medical; Life (Pure Life, Life Health and Life-saving &amp; investment); General Insurance (Travel, Motor, Domestic helper, Home and Personal Accident). <em>Some data were collected in 2021.</em></p>
+
+<h2>Proven Work (Other work I did for Emma by AXA)</h2>
+<ul>
+<li>Developed a color calculator</li>
+<li>Internal training on GA4</li>
+<li>Internal training on new technology</li>
+<li>Developed the campaign ecosystem with new CMS</li>
+<li>Metrics documents and guidelines</li>
+<li>Component design governance process</li>
+<li>Streamlined the product design process</li>
+<li>Developed a training website</li>
+</ul>
+
+  </div>
+  <div class="gallery">
+      <img src="assets/images/emma-by-axa-app/b53f86_00248e2eb3394d68bee96589a2a84283.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_026ebaeffe224dcaa7df68c7eae4b950.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_1fb3bc8f8faa4755ba915227cfec2c6a.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_2f43944adcf9469c8f6c6221c645c1f2.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_393b283af1474ba5a29ab08c42b8fa63.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_3ef7ce0206f24e73b648b8f54e0f6a01.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_408a3b5c55924a698e371b3531d24075.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_486d9b9623bb4494874f609ac764ec62.jpg" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_4b919e8cebf848278296fcc25d8195ee.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_5a0f196c81ab4ec7b327bd0f6665cd79.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_6c45261921cd47b4956c494446933a87.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_757d7061ecf04d4b9160b8e8f8d47586.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_82355d61c1f64faca299d64934d11596.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_87b8e66257cf427aacf7dd6cb5c17298.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_88e51abdc72a4ce3ac26f496f9ed7e5c.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_8c90b2e1fe314f9a9925c8ab978b04d4.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_9c3d83d8104a4a179bd348408984fa50.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_9e1a62004d9d4406865e7827abfd20f5.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_a88c717913b14baba1810073ff707f74.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_a90ddb681efb418f9bc3b88eabd6aae4.png" alt="Project visual" loading="lazy">
+      <img src="assets/images/emma-by-axa-app/b53f86_dc2afa26877e426a9ff796264f9eb744.png" alt="Project visual" loading="lazy">
+  </div>
+  <div class="center-wrap" style="text-align:center;padding-bottom:40px">
+    <a class="back-link" href="previous-projects.html">&larr; Back to Previous Projects</a>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <nav><ul><li><a href="index.html">Home</a></li>
+<li><a href="previous-projects.html">Previous Projects</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="about.html">About me</a></li>
+</ul></nav>
+    <p class="copy">&copy; 2025 by Ellen Timothy Wong</p>
+  </div>
+</footer>
+</body>
+</html>
