@@ -421,6 +421,20 @@ footer.site-footer .copy { color: var(--ink-faint); font-size: 0.85rem; }
   object-fit: cover;
 }
 
+.gallery figure {
+  margin: 0;
+}
+
+.gallery figure img {
+  aspect-ratio: 4 / 3;
+}
+
+.gallery figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
 .back-link {
   display: inline-block;
   margin: 40px auto 0;
