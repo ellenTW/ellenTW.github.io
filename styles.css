@@ -105,7 +105,7 @@ a:hover { color: var(--accent-dark); }
   letter-spacing: 0.01em;
 }
 
-.brand img { height: 36px; width: auto; }
+.brand img { height: 40px; width: auto; }
 
 .brand:hover { color: var(--ink); }
 
@@ -601,9 +601,7 @@ body.home {
 }
 
 .home-logo img {
-  /* 52px: below ~48 the mark's inner counters start closing up; much above
-     this a solid-black mark out-weighs the light display type beside it. */
-  height: 52px;
+  height: 40px;
   width: auto;
   transition: opacity 0.15s ease;
 }
@@ -800,7 +798,6 @@ body.home {
   }
 
   .home-logo { padding-top: var(--space-6); }
-  .home-logo img { height: 44px; }
 
   .home-intro { padding: var(--space-6) 0 var(--space-7); }
   .home-role { margin-bottom: var(--space-5); }
